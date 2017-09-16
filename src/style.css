@@ -1,0 +1,78 @@
+.react-grid-item
+{
+background-color: rgba(50, 50, 50, 1);;
+-webkit-box-shadow: 9px 10px 26px 5px rgba(50, 50, 50, 1);
+-moz-box-shadow:    9px 10px 26px 5px rgba(50, 50, 50, 1);
+box-shadow:         9px 10px 26px 5px rgba(50, 50, 50, 1);
+border-radius: 5px;
+color: #fcfcfc;
+}
+body
+{
+  background-repeat: repeat;
+  background-image: url("http://www.siestacorktiles.co.uk/wp-content/uploads/2014/04/HD881.jpg");
+}
+h2,textarea{
+  font-size:100%;
+  font-weight:normal;
+}
+.note{
+  overflow:hidden;
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+   width:100%;
+
+}
+.note div
+{
+	padding: 20px 40px;
+	display: block;
+	height: 100%;
+}
+.h2
+{
+  font-size:140%;
+  font-weight:bold;
+  padding:10px;
+  padding-left: 0;
+}
+.note textarea{
+  font-family:"Reenie Beanie",arial,sans-serif;
+  display: block;
+  background:#ffc;
+  border:none;
+  width: 100%;
+  resize: none;
+}
+.textarea
+{
+  height: 100%;
+  padding-bottom: 20px;
+}
+.add
+{
+display: block;
+height: 60px;
+width: 60px;
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 99;	
+border-radius: 30px;
+}
+.add img
+{
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
